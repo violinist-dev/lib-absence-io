@@ -1,0 +1,24 @@
+{
+    "name": "dpeuscher/lib-absence-io",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.1",
+        "monolog/monolog": "^1.23",
+        "dflydev/hawk": "^0.0.0",
+        "dpeuscher/alfred-symfony-tools": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dpeuscher\\AbsenceIo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dpeuscher\\AbsenceIo\\Tests\\": "tests/"
+        }
+    }
+}
