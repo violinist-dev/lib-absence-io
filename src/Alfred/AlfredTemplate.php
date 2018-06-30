@@ -57,12 +57,12 @@ class AlfredTemplate
             $this->buildWorkflowText('', $workDaysDevsWithoutTL, $workDaysLeftDevsWithoutTL, true));
         $result->setSubtitle(
             $this->buildWorkflowText('Devs+TL', $workDaysDevs, $workDaysLeftDevs, true) . ' | ' .
-            $this->buildWorkflowText('PM:', $workDaysPM, $workDaysLeftPM, true));
+            $this->buildWorkflowText('PM', $workDaysPM, $workDaysLeftPM, true));
         $details = [];
         foreach (array_keys($workDays) as $name) {
             $details[$name] = $workDays[$name];
             $left = $workDaysLeft[$name] ?? 0;
-            if ($workDays[$name] != $left) {
+            if ($workDays[$name] != $left && $left !== 0) {
                 $details[$name] .= ' (' . $left . ' left ' . round($left / $workDays[$name] * 100) . '%)';
             }
         }

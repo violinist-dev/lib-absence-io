@@ -35,18 +35,11 @@ class AbsenceServiceTest extends TestCase
 
     public function setup()
     {
-        $absence_id = '55c10a6aee21ffeb6f15184c';
-        $absence_key = 'fff93132f9242992e97bf2028a7ee3f149903367fb6ff1053c56ae77dd6abf04';
-        $absence_end_point = 'https://app.absence.io/api/v2/';
-
         $this->fixtureFolder = realpath(dirname(__DIR__) . '/fixtures/');
-        $this->sut = new AbsenceService($absence_end_point, $absence_key, $absence_id);
+        $this->sut = new AbsenceService('', '', '');
 
-        $this->mock = $this->getMockBuilder(AbsenceService::class)->setConstructorArgs([
-            $absence_end_point,
-            $absence_key,
-            $absence_id,
-        ])->setMethods(['executeCall'])->getMock();
+        $this->mock = $this->getMockBuilder(AbsenceService::class)->setConstructorArgs(['', '', ''])
+            ->setMethods(['executeCall'])->getMock();
         $this->mock->expects($this->any())
             ->method('executeCall')
             ->withAnyParameters()

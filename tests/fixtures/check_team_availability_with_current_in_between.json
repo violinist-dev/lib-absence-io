@@ -1,0 +1,16 @@
+{
+    "items": [
+        {
+            "icon": {
+                "path": null
+            },
+            "subtitle": "Devs+TL: 12d (2.4w) left: 6d (1.2w) 50% | PM: 2d (0.4w) left: 2d (0.4w) 100%",
+            "text": {
+                "largetype": "{\n    \"John Doe\": \"5 (2 left 40%)\",\n    \"Johny Doey\": \"4 (2 left 50%)\",\n    \"TLJohn TLDoe\": 2,\n    \"PMJohn PMDoe\": \"3 (2 left 67%)\"\n}",
+                "copy": "{\n    \"John Doe\": \"5 (2 left 40%)\",\n    \"Johny Doey\": \"4 (2 left 50%)\",\n    \"TLJohn TLDoe\": 2,\n    \"PMJohn PMDoe\": \"3 (2 left 67%)\"\n}"
+            },
+            "title": "30.04.-10.05. 9d (1.8w) left: 4d (0.8w) 44%",
+            "valid": false
+        }
+    ]
+}

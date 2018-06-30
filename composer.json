@@ -4,8 +4,6 @@
     "license": "MIT",
     "require": {
         "php": "^7.1",
-        "monolog/monolog": "^1.23",
-        "dflydev/hawk": "^0.0.0",
         "dpeuscher/alfred-symfony-tools": "^2.0"
     },
     "require-dev": {

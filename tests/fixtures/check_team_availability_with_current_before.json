@@ -1,0 +1,16 @@
+{
+    "items": [
+        {
+            "icon": {
+                "path": null
+            },
+            "subtitle": "Devs+TL: 12d (2.4w) | PM: 2d (0.4w)",
+            "text": {
+                "largetype": "{\n    \"John Doe\": 5,\n    \"Johny Doey\": 4,\n    \"TLJohn TLDoe\": 2,\n    \"PMJohn PMDoe\": 3\n}",
+                "copy": "{\n    \"John Doe\": 5,\n    \"Johny Doey\": 4,\n    \"TLJohn TLDoe\": 2,\n    \"PMJohn PMDoe\": 3\n}"
+            },
+            "title": "30.04.-10.05. 9d (1.8w)",
+            "valid": false
+        }
+    ]
+}

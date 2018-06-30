@@ -69,12 +69,13 @@ class TeamMapperService
     /**
      * @param \DateTime $begin
      * @param \DateTime $end
+     * @param \DateTime|null $compareTo
      * @return string
      * @throws \Exception
      */
-    public function checkTeamAvailability(\DateTime $begin, \DateTime $end): string
+    public function checkTeamAvailability(\DateTime $begin, \DateTime $end, ?\DateTime $compareTo = null): string
     {
-        $now = new \DateTime();
+        $now = $compareTo ?? new \DateTime();
 
         $workDaysLeft = [];
         if ($begin < $now && $end > $now) {
