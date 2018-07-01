@@ -10,7 +10,8 @@
                 "copy": "{\n    \"John Doe\": \"5 (2 left 40%)\",\n    \"Johny Doey\": \"4 (2 left 50%)\",\n    \"TLJohn TLDoe\": 2,\n    \"PMJohn PMDoe\": \"3 (2 left 67%)\"\n}"
             },
             "title": "30.04.-10.05. 9d (1.8w) left: 4d (0.8w) 44%",
-            "valid": false
+            "valid": true,
+            "arg": "{\n    \"John Doe\": \"5 (2 left 40%)\",\n    \"Johny Doey\": \"4 (2 left 50%)\",\n    \"TLJohn TLDoe\": 2,\n    \"PMJohn PMDoe\": \"3 (2 left 67%)\"\n}"
         }
     ]
 }

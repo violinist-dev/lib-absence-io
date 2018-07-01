@@ -67,6 +67,8 @@ class AlfredTemplate
             }
         }
         $result->setLargetype(json_encode($details, WorkflowResult::JSON_OPTIONS));
+        $result->setArg(json_encode($details, WorkflowResult::JSON_OPTIONS));
+        $result->setValid(true);
         $result->setCopy(json_encode($details, WorkflowResult::JSON_OPTIONS));
 
         $this->workflowHelper->applyResult($result);
