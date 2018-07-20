@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/dpeuscher/lib-absence-io.svg?branch=master)](https://travis-ci.org/dpeuscher/lib-absence-io) [![codecov](https://codecov.io/gh/dpeuscher/lib-absence-io/branch/master/graph/badge.svg)](https://codecov.io/gh/dpeuscher/lib-absence-io)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdpeuscher%2Flib-absence-io.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdpeuscher%2Flib-absence-io?ref=badge_shield)
 # lib-absence-io
 
 A library to identify the team capacity for a certain team size by member
@@ -21,3 +22,7 @@ Result looks like this:
     'John Doe' =>
     int(55)
   }
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdpeuscher%2Flib-absence-io.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdpeuscher%2Flib-absence-io?ref=badge_large)
